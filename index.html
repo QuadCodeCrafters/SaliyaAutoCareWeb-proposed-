@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Saliya auto care</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0" id="section2">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Kandy road, Millawa, Kurunegala, Sri Lanka</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+012 345 6789</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+     <!--Font IBM-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 style="color:#040686;" style="font-family:'Times New Roman', Times, serif;">Saliya Auto Care</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a onclick="scrollToSection()" class="nav-item nav-link" style="cursor: pointer;">Services</a>
+                <script> 
+                function scrollToSection() { document.getElementById('section').scrollIntoView({ behavior: 'smooth' }); }
+                </script>
+                <script> 
+                    function scrollToSection3() { document.getElementById('section3').scrollIntoView({ behavior: 'smooth' }); }
+                </script>
+                <a href="carrier.html" class="nav-item nav-link">Carrier service</a>
+                <a href="shop.html" class="nav-item nav-link">Shop</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a onclick="scrollToSection3()" class="nav-item nav-link" style="cursor: pointer;">About</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="height: 500px;">
+                    <img class="w-100" src="img/carousel-bg-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">Services</h6>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Providing Fast and efficient services</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown" style="background-color: #00258a; border-color: #00258a;">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 500px;">
+                    <img class="w-100" src="img/carousel-bg-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">Carrier service</h6>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">We are here For your emmergency</h1>
+                                    <a href="" class="btn btn-primary py-3 px-5 animated slideInDown" style="background-color: #00258a; border-color: #00258a;">Learn More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card" style="background: #ffffff;">
+                        <div class="card-details">
+                            <div style="height: 70px; width: 312.400px; display: flex; justify-content: center;">
+                                <img src="img/Services.png" height="80px" width="80px">
+                            </div><br>
+                            <p class="text-title">Quality Servicing</p>
+                            <p class="text-body">
+                                Reliability: Consistency in performing services that meet customer needs. Reliable services build trust and customer loyalty. Tangibility: The physical evidence of a service.
+                            </p>
+                        </div>
+                        <button class="card-button">More info</button>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card" style="background: #f2f2f2;">
+                        <div class="card-details">
+                            <div style="height: 70px; width: 312.400px; display: flex; justify-content: center;">
+                                <img src="img/expertWokers.png" height="80px" width="80px">
+                            </div><br>
+                            <p class="text-title">Expert Workers</p>
+                            <p class="text-body">
+                                Reliability: Consistency in performing services that meet customer needs. Reliable services build trust and customer loyalty. Tangibility: The physical evidence of a service.
+                            </p>
+                        </div>
+                        <button class="card-button">More info</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="card" style="background: #ffffff;">
+                        <div class="card-details">
+                            <div style="height: 70px; width: 312.400px; display: flex; justify-content: center;">
+                                <img src="img/screw-driver.png" height="80px" width="80px">
+                            </div><br>
+                            <p class="text-title">Modern Equipment</p>
+                            <p class="text-body">
+                                Reliability: Consistency in performing services that meet customer needs. Reliable services build trust and customer loyalty. Tangibility: The physical evidence of a service.
+                            </p>
+                        </div>
+                        <button class="card-button">More info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="section3">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                            <h1 class="display-4 text-white mb-0">15 <span class="fs-4">Years</span></h1>
+                            <h4 class="text-white">Experience</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-uppercase" style="color: #040686;">About us</h6>
+                    <h1 class="mb-4"><span style="color: #040686;">Saliya auto care</span> Is The Best Place For Your Repair Needs</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <div class="row g-4 mb-3 pb-3">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">01</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Professional & Expert</h6>
+                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">02</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Quality Servicing Center</h6>
+                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">03</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Awards Winning Workers</h6>
+                                    <span>Diam dolor diam ipsum sit amet diam et eos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary py-3 px-5" style="background-color: #00258a;border-color: #00258a;">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <div class="container-fluid fact bg-dark my-2 py-5">
+        <div class="container" style="margin-bottom: 0px;">
+            <div class="row g-4 justify-content-center"> <!-- Justify-content-center for horizontal centering -->
+                <div class="col-12 col-md-4 d-flex justify-content-center text-center wow fadeIn" data-wow-delay="0.1s"> <!-- d-flex justify-content-center added here -->
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card2">
+                            <div class="ray"></div>
+                            <div style="height: 50px; width: 50px;">
+                                <img src="img/technician.png" height="60px" width="60px">
+                            </div>
+                            <div class="text">150</div>
+                            <div>Expert Technicians</div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center text-center wow fadeIn" data-wow-delay="0.3s">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card2">
+                            <div class="ray"></div>
+                            <div style="height: 50px; width: 50px;">
+                                <img src="img/reputation.png" height="60px" width="60px">
+                            </div>
+                            <div class="text">500</div>
+                            <div>Satisfied Clients</div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center text-center wow fadeIn" data-wow-delay="0.5s">
+                    <div class="outer">
+                        <div class="dot"></div>
+                        <div class="card2">
+                            <div class="ray"></div>
+                            <div style="height: 50px; width: 50px;">
+                                <img src="img/car-repair.png" height="60px" width="60px">
+                            </div>
+                            <div class="text">680</div>
+                            <div>Completed Projects</div>
+                            <div class="line topl"></div>
+                            <div class="line leftl"></div>
+                            <div class="line bottoml"></div>
+                            <div class="line rightl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <!-- Fact End -->
+        
+    
+    <!-- Service Start -->
+    <div class="container-xxl service py-4">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s" >
+                <h6 class="text-uppercase" id="section">Our services</h6>
+                <h1 class="mb-4">Explore Our Services</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button type="button" class="playstore-button" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 " data-bs-target="#tab-pane-1" data-bs-toggle="pill">
+                            <i class="fa fa-tools fa-2x me-3"></i>
+                          <span class="texts">
+                            <span style="font-size: 20px;">Vehicle Repair</span>
+                          </span>
+                        </button><br>
+                        <button type="button" class="playstore-button" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-target="#tab-pane-2" data-bs-toggle="pill">
+                            <i class="fa fa-spray-can fa-2x me-3"></i>
+                            <span class="texts">
+                                <span style="font-size: 20px;">Car Painting</span>
+                              </span>
+                          </button><br>
+                          <button type="button" class="playstore-button" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-target="#tab-pane-3" data-bs-toggle="pill">
+                            <i class="fa fa-car fa-2x me-3"></i>
+
+                            <span class="texts">
+                                <span style="font-size: 20px;">Carrier Service</span>
+                              </span>
+                          </button><br>
+                          <button type="button" class="playstore-button" class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-target="#tab-pane-4" data-bs-toggle="pill">
+                            <i class="fa fa-cogs fa-2x me-3"></i>
+                            <span class="texts">
+                                <span style="font-size: 20px;">Spare Parts Selling</span>
+                              </span>
+                          </button><br>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3" style="background-color: #00258a; border-color: #00258a;">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3" style="background-color: #00258a; border-color: #00258a;">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3" style="background-color: #00258a; border-color: #00258a;">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">15 Years Of Experience In Auto Servicing</h3>
+                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Quality Servicing</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Expert Workers</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Modern Equipment</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3" style="background-color: #00258a; border-color: #00258a;">Read More<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- logoes Start -->
+    <div class="container-fluid bg-secondary booking my-0 wow fadeInUp"  data-wow-delay="0.1s">
+        <div class="container" style="margin-bottom: 20px;">
+            <div class="row gx-5">
+                <!-- Left Text Section -->
+                <div class="col-lg-6 py-5 d-flex flex-column justify-content-start align-items-center text-center">
+                    <div>
+                        <h1 class="text-white mb-4">Brands and organizations around us</h1>
+                        <p class="text-white mb-0">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    </div>
+                </div>
+    
+                <!-- Right Image Grid Section -->
+                <div class="col-lg-6 col-md-12 col-sm-12 py-5">
+                    <div class="row g-3">
+                        <div class="col-4">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwQWaXoCQDgXokTAJEYW5t8UplRdqykRFjpA&s" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-4" style="background-color: white;">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP5F2bjDe1KY1dWiekJ85m2QDxlTRPTEXz_g&s"
+                                class="img-fluid" style="margin-top: 0px;">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="https://i.pinimg.com/736x/c2/9a/86/c29a86256a9df2775a3857927f914a33.jpg" class="img-fluid">
+                           </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="data:image/png;base64,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" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="col-4" style="background-color: white;">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZShoVBhCZoflB-I35i_BsVH9Lexeanbbq2Q&s" class="img-fluid" >
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="bg-light w-100 h-100 d-flex justify-content-center align-items-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUywM6Hzz2iPq56bp9pVw8DDR8dVd23SjPBQ&s" class="img-fluid">
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container" style="margin-bottom: 44px;">
+            <div class="text-center" style="margin-bottom: 2px;">
+                <h6 class="mb-2">CUSTOMER TOUGHTS</h6>
+                <h1 class="mb-4">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+<!-- Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+            items: 1,        // Display one item at a time
+            loop: true,      // Loop through items
+            autoplay: true,  // Auto-play
+            autoplayTimeout: 5000, // 5 seconds per slide
+            nav: true        // Navigation arrows
+          });
+        });
+      </script>
+      <!-- Main News Slider Start -->
+      <div class="container-fluid" style="margin-bottom: 0px;">
+        <div class="news-header">
+            <h2 class="news-heading">News and Events</h2>
+        </div>
+    </div>
+    
+      <div class="container-fluid" style="margin-bottom: 0px;">
+        <div class="row">
+            <div class="col-lg-7 px-0">
+                <div class="owl-carousel owl-theme">
+                    <div class="position-relative overflow-hidden" style="height: 500px;">
+                        <img class="img-fluid h-100" src="img2/news-800x500-2.jpg" style="object-fit: cover;">
+                        <div class="overlay">
+                            <div class="mb-2">
+                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2" href="">Technology</a>
+                                <a class="text-white" href="">Feb 01, 2020</a>
+                            </div>
+                            <a class="h2 m-0 text-white text-uppercase font-weight-bold" href="">
+                                Second slide headline text goes here...
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 px-0">
+                <div class="row mx-0">
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img2/news-700x435-1.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Business</a>
+                                    <a class="text-white" href=""><small>Jan 01, 2045</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img2/news-700x435-2.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Business</a>
+                                    <a class="text-white" href=""><small>Jan 01, 2045</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img2/news-700x435-3.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Business</a>
+                                    <a class="text-white" href=""><small>Jan 01, 2045</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <div class="position-relative overflow-hidden" style="height: 250px;">
+                            <img class="img-fluid w-100 h-100" src="img2/news-700x435-4.jpg" style="object-fit: cover;">
+                            <div class="overlay">
+                                <div class="mb-2">
+                                    <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                        href="">Business</a>
+                                    <a class="text-white" href=""><small>Jan 01, 2045</small></a>
+                                </div>
+                                <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold" href="">Lorem ipsum dolor sit amet elit...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5" style="margin-top: 0px;">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Diagnostic Test</a>
+                    <a class="btn btn-link" href="">Engine Servicing</a>
+                    <a class="btn btn-link" href="">Tires Replacement</a>
+                    <a class="btn btn-link" href="">Oil Changing</a>
+                    <a class="btn btn-link" href="">Vacuam Cleaning</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">About Us</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Saliya Auto Care.lk</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                       
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <script> 
+        function scrollToSection2() { document.getElementById('section2').scrollIntoView({ behavior: 'smooth' }); }
+        </script>
+    <button type="button" onclick="scrollToSection2()" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></button>
+    
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
