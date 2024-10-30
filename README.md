@@ -1,2 +1,2 @@
-# SaliyaAutoCareWeb-proposed-
-The official web site of saliya auto care
+# Saliya auto care website
+Some features are under constructions. New UI elements will be added (this is the normal UI alignment).
